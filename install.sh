@@ -38,9 +38,14 @@ read -p "Please input your web password：" webpasswd
 
 
 #Install SSR (Powered By Teddysun : https://shadowsocks.be/9.html)
-wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/shadowsocks_install/master/shadowsocksR.sh
+#wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/shadowsocks_install/master/shadowsocksR.sh
+#chmod +x shadowsocksR.sh
+#bash shadowsocksR.sh
+#rm -rf shadowsocksR.sh
+#原安装方式已失效，替换为新的安装脚本
+wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh
 chmod +x shadowsocksR.sh
-bash shadowsocksR.sh
+./shadowsocksR.sh 2>&1 | tee shadowsocksR.log
 rm -rf shadowsocksR.sh
 
 #Install Basic Tools
@@ -73,7 +78,9 @@ rm -rf caddy_install.sh
 
 #Install SWEB
 cd /usr/local/
-git clone https://github.com/FunctionClub/SWEB
+#git clone https://github.com/FunctionClub/SWEB
+#原地址已失效，替换为新的地址
+git clone https://github.com/ishkong/SWEB
 chmod +x /usr/local/SWEB/cgi-bin
 
 #Configure Caddy Proxy
@@ -84,7 +91,9 @@ echo ":80 {
 service caddy restart
 
 #Download SWEB Manager
-wget -N --no-check-certificate -O /usr/local/bin/sweb https://raw.githubusercontent.com/FunctionClub/SWEB/master/sweb
+#wget -N --no-check-certificate -O /usr/local/bin/sweb https://raw.githubusercontent.com/FunctionClub/SWEB/master/sweb
+#原地址已失效，替换为新地址
+wget -N --no-check-certificate -O /usr/local/bin/sweb https://raw.githubusercontent.com/ishkong/SWEB/master/sweb
 chmod +x /usr/local/bin/sweb
 
 #Start SWEB in Screen
