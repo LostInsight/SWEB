@@ -73,10 +73,8 @@ rm -rf caddy_install.sh
 
 #Install SWEB
 cd /usr/local/
-#git clone https://github.com/FunctionClub/SWEB
-#原地址已失效，替换为新的地址
 git clone https://github.com/ishkong/SWEB
-chmod +x /usr/local/SWEB/cgi-bin
+chmod +x /usr/local/SWEB/cgi-bin/*
 
 #Configure Caddy Proxy
 echo ":80 {
