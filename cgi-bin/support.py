@@ -33,6 +33,7 @@ html='''
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.py">服务信息<span class="sr-only">(current)</span></a></li>
         <li><a href="setpage.py">服务器设置</a></li>
+	<li><a href="exchange.py">修改面板信息</a></li>
         <li><a href="log.py">运行日志</a></li>
         <li><a href="app.py">软件下载</a></li>
       </ul>
@@ -44,7 +45,7 @@ html='''
             <li><a href="server.py?action=start">启动SSR服务器</a> </li>
             <li><a href="server.py?action=restart">重启SSR服务器</a> </li>
             <li role="separator" class="divider"></li>
-            <li><a href="https://github.com/FunctionClub/SWEB">关于我们</a> </li>
+            <li><a href="https://github.com/ishkong/SWEB">关于我们</a> </li>
             <li><a href="support.py">支持赞助</a> </li>
           </ul>
         </li>
@@ -71,7 +72,7 @@ html='''
 		</div>
 		<div id="collapseThree" class="panel-collapse collapse">
 			<div class="panel-body" align="center">
-				<img src="https://cdn.ylws.me/support.png"/>
+				<img src=""/>
 			</div>
 		</div>
 </div>
@@ -89,8 +90,8 @@ html='''
 		<div id="collapseFour" class="panel-collapse collapse">
 			<div class="panel-body" align="center">
 			<strong>欢迎走我的AFF购买以下产品，允许我拿一些回扣。嘻嘻嘻</strong><br><br>
-				<a href="https://www.tizipu.net/aff.php?aff=46"><img src="https://cdn.ylws.me/tizipu.png"></a><br><br>
-				<a href="http://www.vultr.com/?ref=6985881"><img src="https://cdn.ylws.me/vultr.png"></a>
+				<a href=""><img src=""></a><br><br>
+				<a href=""><img src=""></a>
 			</div>
 		</div>
 </div>
