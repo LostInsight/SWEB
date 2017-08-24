@@ -74,6 +74,7 @@ html = '''
 		<div class="col-md-3">
 			<strong>用户名:<br></strong><textarea class="input-xlarge trololo" name="panelname" rows="3" style="background-color: rgb(255, 255, 255); color: rgb(85, 85, 85); padding: 3px; border: 1px solid rgb(204, 204, 204); font-size: 15px;" data-enpassid="__816">%s</textarea><br><br>
 			<strong>密码:<br></strong><textarea class="input-xlarge trololo" name="panelpass" rows="3" style="background-color: rgb(255, 255, 255); color: rgb(85, 85, 85); padding: 3px; border: 1px solid rgb(204, 204, 204); font-size: 15px;" data-enpassid="__816">%s</textarea>	
+			<button class="btn btn-success" style="color: rgb(255, 255, 255); background-image: -webkit-linear-gradient(top, rgb(98, 196, 98), rgb(81, 163, 81)); background-color: rgb(70, 136, 71);" type="submit"><i class="icon-ok icon-white"></i>提交</button>
 		</div>
         
       </div>
@@ -104,3 +105,5 @@ html = '''
 </body>
 </html>
 '''
+
+print html
