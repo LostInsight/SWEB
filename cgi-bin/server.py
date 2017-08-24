@@ -41,6 +41,7 @@ header = '''
       <ul class="nav navbar-nav">
         <li><a href="index.py">服务信息</a></li>
         <li><a href="setpage.py">服务器设置</a></li>
+        <li><a href="exchange.py">修改面板信息</a></li>
         <li><a href="log.py">运行日志</a></li>
         <li><a href="app.html">软件下载</a></li>
       </ul>
