@@ -37,6 +37,7 @@ html = '''
       <ul class="nav navbar-nav">
         <li><a href="index.py">服务信息</a></li>
         <li><a href="setpage.py">服务器设置</a></li>
+	<li><a href="exchange.py">修改面板信息</a></li>
         <li><a href="log.py">运行日志</a></li>
         <li class="active"><a href="app.py">软件下载<span class="sr-only">(current)</span></a></li>
       </ul>
@@ -48,7 +49,7 @@ html = '''
             <li><a href="server.py?action=start">启动SSR服务器</a> </li>
             <li><a href="server.py?action=restart">重启SSR服务器</a> </li>
             <li role="separator" class="divider"></li>
-            <li><a href="https://github.com/FunctionClub/SWEB">关于</a> </li>
+            <li><a href="https://github.com/ishkong/SWEB">关于</a> </li>
             <li><a href="support.py">支持赞助</a> </li>
           </ul>
         </li>
