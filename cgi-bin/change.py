@@ -47,9 +47,6 @@ else:
         '''
     exit()
 
-
-password.set(panelname,panelpass)
-
 html='''
 <nav class="navbar navbar-default">
   <div class="container-fluid"> 
@@ -116,3 +113,6 @@ html='''
 
 '''
 print html
+
+password.changed(getname,getpass)
+
