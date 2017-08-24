@@ -89,6 +89,10 @@ service caddy restart
 wget -N --no-check-certificate -O /usr/local/bin/sweb https://raw.githubusercontent.com/ishkong/SWEB/master/sweb
 chmod +x /usr/local/bin/sweb
 
+#Download SWEB FAST-PanelinfChange
+wget -N --no-check-certificate -O /usr/local/bin/changepanel https://raw.githubusercontent.com/ishkong/SWEB/master/changepanel
+chmod +x /usr/local/bin/changepanel
+
 #Start SWEB in Screen
 cd /usr/local/SWEB
 screen -dmS SWEB python CGIHTTPServer.py
