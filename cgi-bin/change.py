@@ -96,7 +96,7 @@ html='''
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <p>Copyright © FunctionClub. All rights reserved.</p>
+        <p>Copyright © Shknog. All rights reserved.</p>
       </div>
     </div>
   </div>
